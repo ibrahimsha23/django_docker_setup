@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: django_web
+    env_file: .env # Add .env file set all env variables
+    command: /home/docker/code/run_web.sh
+    volumes:
+      - /var/log/nginx:/var/log/nginx
+      - /var/log/uwsgi:/var/log/uwsgi
+    ports:
+      - "8000:8000"

@@ -1,0 +1,5 @@
+*.pyc
+.idea/
+media/
+.env
+env_credentials.sh
