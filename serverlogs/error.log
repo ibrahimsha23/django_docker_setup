@@ -1,0 +1,8 @@
+2021/05/22 12:38:36 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.21.0.2:8000/", host: "localhost"
+2021/05/22 12:38:36 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.21.0.2:8000/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2021/05/22 12:39:11 [error] 22#22: *1 connect() failed (110: Connection timed out) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", upstream: "http://172.21.0.2:8000/admin/", host: "localhost"
+2021/05/22 12:42:45 [emerg] 1#1: host not found in upstream "web:8000" in /etc/nginx/conf.d/nginx.conf:2
+2021/05/22 12:42:46 [emerg] 1#1: host not found in upstream "web:8000" in /etc/nginx/conf.d/nginx.conf:2
+2021/05/22 12:42:46 [emerg] 1#1: host not found in upstream "web:8000" in /etc/nginx/conf.d/nginx.conf:2
+2021/05/22 12:45:46 [error] 23#23: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", upstream: "http://172.21.0.3:8000/admin/", host: "localhost"
+2021/05/22 12:53:49 [error] 22#22: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /admin/ HTTP/1.1", upstream: "http://172.21.0.3:8000/admin/", host: "localhost"
